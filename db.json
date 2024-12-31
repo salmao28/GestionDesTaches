@@ -1,0 +1,206 @@
+{
+  "admins": [
+    {
+      "id": "1",
+      "name": "Salma MOUSSAOUI",
+      "email": "salma123@gmail.com",
+      "password": "admin"
+    }
+  ],
+  "companies": [
+    {
+      "id": "1",
+      "name": "TechCorp",
+      "address": "123 Innovation Drive",
+      "contact_info": "info@techcorp.com"
+    }
+  ],
+  "employees": [
+    {
+      "id": "1",
+      "name": "rim KHARMACHE",
+      "email": "rim123@gmail.com",
+      "role": " web Developer",
+      "company_id": 1,
+      "manager_id": null
+    },
+    {
+      "id": "2",
+      "name": "salma MOUSSAOUI",
+      "role": "mobile devloper",
+      "email": "salma123@gmail.com"
+    },
+    {
+      "id": "3",
+      "name": "Meryem Achouri",
+      "role": "mobile devloper",
+      "email": "meryem123@gmail.com"
+    },
+    {
+      "id": "4",
+      "name": "BELLALI YASSINE",
+      "role": "Developer",
+      "email": "yassine123@gmail.com"
+    },
+    {
+      "id": "5",
+      "name": "Ayoub Belkhadir",
+      "role": "Developer",
+      "email": "ayoub123@gmail.com"
+    },
+    {
+      "id": "6",
+      "name": "Mostafa haydar",
+      "role": "Developer",
+      "email": "moustafa123@gmail.com"
+    },
+    {
+      "id": "7",
+      "name": "Boukouria Asmae",
+      "role": "Developer",
+      "email": "asmae123@gmail.com"
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "name": "Project Alpha",
+      "description": "Develop a new mobile app.",
+      "start_date": "2024-01-01",
+      "end_date": "2024-06-30",
+      "status": "In Progress",
+      "company_id": 1
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "title": "chat escodeve",
+      "priority": "urgent",
+      "status": "en cours",
+      "date": "01/11/2024",
+      "comments": [
+        {
+          "id": "1",
+          "comment": "comment 1"
+        },
+        {
+          "id": "2",
+          "comment": "comment 2"
+        }
+      ],
+      "links": [
+        {
+          "id": "1",
+          "link": "facebook.com"
+        },
+        {
+          "id": "2",
+          "link": "yahoo.com"
+        }
+      ],
+      "members": [
+        "1",
+        "4",
+        "3",
+        "7"
+      ],
+      "progress": 0.85
+    },
+    {
+      "id": "88a2",
+      "title": "Projet ecsodeve academy",
+      "priority": "urgent",
+      "status": "en cours",
+      "date": "29/11/2025",
+      "comments": [
+        {
+          "id": "1",
+          "comment": "Le projet en attend"
+        }
+      ],
+      "links": [
+        {
+          "id": "1",
+          "link": ""
+        }
+      ],
+      "members": [
+        "4"
+      ],
+      "progress": 0.7
+    },
+    {
+      "id": "9600",
+      "title": "Traitement des tiquets depense automatique ",
+      "priority": "normale",
+      "status": "en cours",
+      "date": "01/11/2024",
+      "comments": [
+        {
+          "id": "1",
+          "comment": ""
+        }
+      ],
+      "links": [
+        {
+          "id": "1",
+          "link": ""
+        }
+      ],
+      "members": [
+        "5",
+        "6"
+      ],
+      "progress": 0.85
+    },
+    {
+      "id": "05af",
+      "title": "Validation des depense automatique",
+      "priority": "normale",
+      "status": "en cours",
+      "date": "01/12/2025",
+      "comments": [
+        {
+          "id": "1",
+          "comment": "Un probleme dans les api"
+        }
+      ],
+      "links": [
+        {
+          "id": "1",
+          "link": ""
+        }
+      ],
+      "members": [
+        "6",
+        "5"
+      ],
+      "progress": 0.6
+    },
+    {
+      "id": "e552",
+      "title": "Rembouressement automatique des depense valids",
+      "priority": "normale",
+      "status": "en cours",
+      "date": "01/12/2025.",
+      "comments": [
+        {
+          "id": "1",
+          "comment": "Les api presque terminer"
+        }
+      ],
+      "links": [
+        {
+          "id": "1",
+          "link": ""
+        }
+      ],
+      "members": [
+        "5",
+        "6"
+      ],
+      "progress": 0.9
+    }
+  ]
+}
